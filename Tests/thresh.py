@@ -9,7 +9,7 @@ import torchvision.transforms as transforms  # Transformations we can perform on
 from torch import optim  # For optimizers like SGD, Adam, etc.
 from torch import nn  # All neural network modules
 from torch.utils.data import DataLoader  # Gives easier dataset managment by creating mini batches etc.
-
+print("")
 
 class LeNet(nn.Module):
     def __init__(self):
